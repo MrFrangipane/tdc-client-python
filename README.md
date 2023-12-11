@@ -83,14 +83,14 @@ All URIs are relative to *http://localhost*
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
 *DefaultApi* | [**root_get**](docs/DefaultApi.md#root_get) | **GET** / | Root
-*ExpensesApi* | [**get_expenses_expense_id_get**](docs/ExpensesApi.md#get_expenses_expense_id_get) | **GET** /expenses/{expense_id} | Get
-*ExpensesApi* | [**get_expenses_get**](docs/ExpensesApi.md#get_expenses_get) | **GET** /expenses/ | Get
-*ExpensesApi* | [**get_project_expenses_project_id_expenses_get**](docs/ExpensesApi.md#get_project_expenses_project_id_expenses_get) | **GET** /expenses/{project_id}/expenses | Get Project
-*ExpensesApi* | [**post_expenses_post**](docs/ExpensesApi.md#post_expenses_post) | **POST** /expenses/ | Post
-*ProjectsApi* | [**get_projects_get**](docs/ProjectsApi.md#get_projects_get) | **GET** /projects/ | Get
-*ProjectsApi* | [**new_projects_post**](docs/ProjectsApi.md#new_projects_post) | **POST** /projects/ | New
-*ProjectsApi* | [**remove_projects_delete**](docs/ProjectsApi.md#remove_projects_delete) | **DELETE** /projects/ | Remove
-*ProjectsApi* | [**update_projects_put**](docs/ProjectsApi.md#update_projects_put) | **PUT** /projects/ | Update
+*ExpensesApi* | [**expenses_delete**](docs/ExpensesApi.md#expenses_delete) | **DELETE** /expenses/ | 
+*ExpensesApi* | [**expenses_project_id_expenses_get**](docs/ExpensesApi.md#expenses_project_id_expenses_get) | **GET** /expenses/{project_id}/expenses | 
+*ExpensesApi* | [**expenses_project_id_expenses_post**](docs/ExpensesApi.md#expenses_project_id_expenses_post) | **POST** /expenses/{project_id}/expenses | 
+*ExpensesApi* | [**expenses_put**](docs/ExpensesApi.md#expenses_put) | **PUT** /expenses/ | 
+*ProjectsApi* | [**projects_delete**](docs/ProjectsApi.md#projects_delete) | **DELETE** /projects/ | 
+*ProjectsApi* | [**projects_get**](docs/ProjectsApi.md#projects_get) | **GET** /projects/ | 
+*ProjectsApi* | [**projects_post**](docs/ProjectsApi.md#projects_post) | **POST** /projects/ | 
+*ProjectsApi* | [**projects_put**](docs/ProjectsApi.md#projects_put) | **PUT** /projects/ | 
 
 
 ## Documentation For Models
@@ -105,7 +105,12 @@ Class | Method | HTTP request | Description
 <a id="documentation-for-authorization"></a>
 ## Documentation For Authorization
 
-Endpoints do not require authorization.
+
+Authentication schemes defined for the API:
+<a id="HTTPBearer"></a>
+### HTTPBearer
+
+- **Type**: Bearer authentication
 
 
 ## Author
