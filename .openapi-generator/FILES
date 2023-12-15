@@ -9,6 +9,8 @@ docs/ExpensesApi.md
 docs/HTTPValidationError.md
 docs/Project.md
 docs/ProjectsApi.md
+docs/User.md
+docs/UsersApi.md
 docs/ValidationError.md
 docs/ValidationErrorLocInner.md
 git_push.sh
@@ -21,6 +23,7 @@ tdc_api_client/api/__init__.py
 tdc_api_client/api/default_api.py
 tdc_api_client/api/expenses_api.py
 tdc_api_client/api/projects_api.py
+tdc_api_client/api/users_api.py
 tdc_api_client/api_client.py
 tdc_api_client/api_response.py
 tdc_api_client/configuration.py
@@ -29,6 +32,7 @@ tdc_api_client/models/__init__.py
 tdc_api_client/models/expense.py
 tdc_api_client/models/http_validation_error.py
 tdc_api_client/models/project.py
+tdc_api_client/models/user.py
 tdc_api_client/models/validation_error.py
 tdc_api_client/models/validation_error_loc_inner.py
 tdc_api_client/py.typed

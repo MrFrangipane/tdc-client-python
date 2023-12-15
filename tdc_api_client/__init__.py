@@ -20,6 +20,7 @@ __version__ = "1.0.0"
 from tdc_api_client.api.default_api import DefaultApi
 from tdc_api_client.api.expenses_api import ExpensesApi
 from tdc_api_client.api.projects_api import ProjectsApi
+from tdc_api_client.api.users_api import UsersApi
 
 # import ApiClient
 from tdc_api_client.api_response import ApiResponse
@@ -36,5 +37,6 @@ from tdc_api_client.exceptions import ApiException
 from tdc_api_client.models.expense import Expense
 from tdc_api_client.models.http_validation_error import HTTPValidationError
 from tdc_api_client.models.project import Project
+from tdc_api_client.models.user import User
 from tdc_api_client.models.validation_error import ValidationError
 from tdc_api_client.models.validation_error_loc_inner import ValidationErrorLocInner

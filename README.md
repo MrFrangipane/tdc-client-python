@@ -91,6 +91,7 @@ Class | Method | HTTP request | Description
 *ProjectsApi* | [**projects_get**](docs/ProjectsApi.md#projects_get) | **GET** /projects/ | 
 *ProjectsApi* | [**projects_post**](docs/ProjectsApi.md#projects_post) | **POST** /projects/ | 
 *ProjectsApi* | [**projects_put**](docs/ProjectsApi.md#projects_put) | **PUT** /projects/ | 
+*UsersApi* | [**users_me_get**](docs/UsersApi.md#users_me_get) | **GET** /users/me | 
 
 
 ## Documentation For Models
@@ -98,6 +99,7 @@ Class | Method | HTTP request | Description
  - [Expense](docs/Expense.md)
  - [HTTPValidationError](docs/HTTPValidationError.md)
  - [Project](docs/Project.md)
+ - [User](docs/User.md)
  - [ValidationError](docs/ValidationError.md)
  - [ValidationErrorLocInner](docs/ValidationErrorLocInner.md)
 
